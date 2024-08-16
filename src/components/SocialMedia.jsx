@@ -15,7 +15,9 @@ const SocialMedia = ({ accounts, darkMode }) => {
               darkMode
                 ? "bg-Dark-Desaturated-Blue-Card-BG"
                 : "bg-Light-Grayish-Blue-Card-BG"
-            } `}
+            } hover:bg-[${
+              darkMode ? "#333a56" : "#e1e3f0"
+            }] hover:cursor-pointer`}
             style={{
               borderTopWidth: "4px",
               borderTopStyle: "solid",

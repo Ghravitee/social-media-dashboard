@@ -89,8 +89,8 @@ function App() {
             darkMode ? "bg-Dark-Grayish-Blue-Text" : "bg-Dark-Grayish-Blue-Text"
           } w-full h-[1px] lg:hidden`}
         />
-        <div className="flex justify-between items-center mt-4 lg:mt-0 gap-4">
-          <h3
+        <form className="flex justify-between items-center mt-4 lg:mt-0 gap-4">
+          <label
             className={`${
               darkMode
                 ? "text-Desaturated-Blue-Text"
@@ -98,14 +98,14 @@ function App() {
             } inter-700`}
           >
             {darkMode ? "Dark Mode" : "Light Mode"}
-          </h3>
+          </label>
           <div
             onClick={toggleBilling}
             className={`flex justify-start cursor-pointer items-center h-5 ${
               darkMode
                 ? "bg-gradient-to-tr from-[#378fe6] to-[#3eda82]"
                 : "bg-Toggle-Light"
-            }  relative w-10 rounded-full select-none`}
+            }  relative w-10 rounded-full select-none hover:bg-gradient-to-tr from-[#378fe6] to-[#3eda82]`}
           >
             <input
               type="checkbox"
@@ -118,7 +118,7 @@ function App() {
               }`}
             />
           </div>
-        </div>
+        </form>
       </div>
 
       <SocialMedia accounts={accounts} darkMode={darkMode} />

@@ -87,7 +87,9 @@ const Overview = ({ darkMode }) => {
                 darkMode
                   ? "bg-Dark-Desaturated-Blue-Card-BG"
                   : "bg-Light-Grayish-Blue-Card-BG"
-              }`}
+              } hover:bg-[${
+                darkMode ? "#333a56" : "#e1e3f0"
+              }] hover:cursor-pointer`}
             >
               <div className="flex items-center justify-between">
                 <h3
