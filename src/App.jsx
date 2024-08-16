@@ -9,7 +9,7 @@ import SocialMedia from "./components/SocialMedia";
 import Overview from "./components/Overview";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleBilling = () => {
     setDarkMode((prev) => !prev);
