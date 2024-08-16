@@ -64,7 +64,7 @@ function App() {
           darkMode
             ? "bg-Very-Dark-Blue-Top-BG-Pattern"
             : "bg-Very-Pale-Blue-Top-BG-Pattern"
-        } pt-10 pb-20 rounded-b-[3rem] px-6 flex flex-col lg:flex-row justify-between xl:px-40 2xl:px-[12.5rem]`}
+        } pt-10 pb-20 rounded-b-[3rem] px-6 flex flex-col lg:flex-row justify-between xl:px-40 2xl:px-[13rem]`}
       >
         <div className="flex flex-col items-start">
           <h1
